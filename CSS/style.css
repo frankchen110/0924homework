@@ -1,0 +1,155 @@
+html{
+    background-color:#EDF2C5;
+    
+}
+.content-area{
+    display: flex;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-title{
+  width: 271px;
+  height: 62px;
+  font-family: Arial;
+  font-size: 44px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.82;
+  letter-spacing: normal;
+  text-align: left;  
+  color: #778a50;
+  margin-top: 53px;
+  margin-bottom: 0px;
+}
+
+.header-right{
+    display: flex;
+}
+
+.btn_facebook{
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin-right: 10px;
+    margin-top: 60px;
+}
+.btn_ins{
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin-top: 60px;
+    margin-right: 10px;
+}
+.line_login {
+    width: 1px;
+    height: 25px;
+    background-color: #778a50;
+
+    margin-top: 60px;
+    margin-right: 10px;
+  }
+
+  .LOGIN {
+    width: 46px;
+    height: 15px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778a50;
+
+    width: 60px;
+    height: 25px;
+    border: solid 1px #778a50;
+
+    margin-top: 60px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 25px;
+
+    border-radius: 3px;
+  }
+
+.JOIN {
+    width: 35px;
+    height: 15px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778a50;
+
+    width: 49px;
+    height: 25px;
+    border: solid 1px #778a50;
+
+    margin-top: 60px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 25px;
+
+    border-radius: 3px;
+  }
+
+.nav{
+    margin-top: 0px;
+    
+}
+.nav-list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+.nav-list-item{
+    list-style: none;
+    /*width: 940px;*/
+
+    margin: 0;
+    padding: 0;
+    /*height: 44px;*/
+    text-align: left;
+    
+}
+.nav-list-item-link{
+    
+    display: block;
+    font-family: Arial;
+    color:#EDF2C5;
+    text-decoration: none;
+    padding-top: 14px ;
+    padding-bottom: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: hsl(80, 27%, 43%);
+
+    /*width: 80px;
+  height: 23px;*/
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  /*line-height: 2.25;*/
+    letter-spacing: normal;
+    text-align: left;
+  
+
+}
+.container{
+    max-width: 1260px;
+    max-height: 940;
+    margin-left: auto;
+    margin-right: auto;
+}
