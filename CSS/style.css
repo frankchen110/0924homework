@@ -8,7 +8,8 @@ html{
 }
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
+   
 }
 .header-title{
   width: 271px;
@@ -29,7 +30,9 @@ html{
 .header-right{
     display: flex;
 }
-
+.empty{
+    width: 465px;
+}
 .btn_facebook{
     width: 25px;
     height: 25px;
@@ -105,7 +108,8 @@ html{
 
 .nav{
     margin-top: 0px;
-    
+    width: 940px;
+    height: 44;
 }
 .nav-list{
     display: flex;
@@ -115,16 +119,38 @@ html{
 }
 .nav-list-item{
     list-style: none;
-    /*width: 940px;*/
-
+    width: 940px;
     margin: 0;
     padding: 0;
-    /*height: 44px;*/
+    height: 44px;
     text-align: left;
     
 }
 .nav-list-item-link{
     
+    display: block;
+    font-family: Arial;
+    color:#EDF2C5;
+
+    text-decoration: none;
+    padding-top: 10px ;
+    padding-bottom: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: hsl(80, 27%, 43%);
+    /*width: 80px;
+  height: 23px;*/
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  /*line-height: 2.25;*/
+    letter-spacing: normal;
+    text-align: left;
+  
+
+}
+.main-header{
     display: block;
     font-family: Arial;
     color:#EDF2C5;
@@ -144,12 +170,58 @@ html{
   /*line-height: 2.25;*/
     letter-spacing: normal;
     text-align: left;
-  
-
+    margin-right: 52px;
+    width: 444px;
+}
+.main-article{
+  width: 414px;
+  height: 44px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7d7d7d;
+}
+.main-line{
+    width: 414px;
+    height: 1px;
+    background-color: #7d7d7d;
+}
+.main-article2{
+    width: 197px;
+    height: 35px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7d7d7d;
 }
 .container{
     max-width: 1260px;
     max-height: 940;
     margin-left: auto;
     margin-right: auto;
+}
+.footer-text{
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+
+    letter-spacing: normal;
+    text-align: center;
+    color: #edf2c5;
+    padding-top: 23px;
+padding-bottom: 23px;
+    width: 1260px;
+  background-color: #778a50;
 }
